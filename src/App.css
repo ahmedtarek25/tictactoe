@@ -127,10 +127,13 @@ grid-gap: 12px;
   transition: transform 0.3s;
   font-weight: 800;
 }
-.grid-box:hover {
-  transform: scale(1.03);
-  transition: transform 0.3s;
+@media (hover: hover) {
+  .grid-box:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s;
+  }
 }
+
 .win-screen-body {
   position: fixed;
   width: 100vw;
