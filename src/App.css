@@ -175,7 +175,7 @@ grid-gap: 12px;
   gap:20px;
   flex-direction: column;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10%;
 }
 .play-again-butt {
   font-family: Outfit;
@@ -203,6 +203,9 @@ grid-gap: 12px;
     font-size:30px
   }
   .win-text {
-    font-size: 65px
+    font-size: 48px
+  }
+  .title h1 {
+    font-size: 40px;
   }
 }
