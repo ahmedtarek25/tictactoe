@@ -148,7 +148,7 @@ grid-gap: 12px;
   transition: transform 0.3s;
   font-weight: 800;
 }
-@media only screen and (min-width: 640px) {
+@media (hover: hover) {
   .grid-box:hover {
     transform: scale(1.03);
     transition: transform 0.3s;
@@ -217,5 +217,8 @@ grid-gap: 12px;
   }
   .win-screen {
     padding-bottom: 10%;
+  }
+  .grid-box {
+    font-size: 70px;
   }
 }
